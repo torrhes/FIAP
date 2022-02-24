@@ -1,5 +1,7 @@
 ### FIAP  - Sistemas para internet
 
-✨ Repósitorio criado para armazenas atividades do curso ✨
+✨ Repósitorio criado para armazenar atividades realizadas ao decorrer do curso ✨
+
+🚀 Fase 1 : 
 
  📚 [Atividade 01: SITE COM ESTILO (cap 4)](https://github.com/torrhes/FIAP/tree/atividade1/atividade1)
