@@ -1,0 +1,110 @@
+/*
+Cores:
+#CDB4DB - lavanda
+#FFC8DD - rosa
+#FFAFCC - rosa 2
+#f4989c - rosa 3
+#BDE0FE - azul
+#A2D2FF - azul 2
+#769edb - azul 3
+#ffc09f - laranja
+#adf7b6  - verde
+#c1ff9b - verde2
+#defffc - menta
+#ab87ff - roxo
+#e0e1e9 - cinza
+#7f7f7f - cinza 2
+#595959 - cinza 3
+#f3f6f7 - cinza 4 
+#fc4a53 - rosa portifa
+#000 - preto 
+
+font-family: 'BioRhyme', serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Space Mono', monospace;
+
+*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+li.nav-item {
+    border-radius: 28px;
+    background-color: #b898ca;
+    padding: 0px 15px;
+    margin: 20px 0px 8px 21px;
+    height: 42px;
+}
+.navbar-brand {
+    margin-left: 27px;
+}
+li.nav-item:hover {
+  border-radius: 28px;
+  background-color:#8d759b;
+  padding: 0px 15px;
+  margin-left: 8px;
+}
+.nav-item a {
+  color: #e1d4ff;
+}
+.nav-item a:hover {
+  color: #defffc;
+}
+  .navbar{
+      height: 70px;
+      background-color:#CDB4DB;
+      font-family: 'Space Mono', monospace;
+  }
+  .banner{ 
+      background-color: #CDB4DB;
+  }
+
+  
+  .typing {
+    width: 32ch;
+    animation: typing 2s steps(32), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: 'Space Mono', monospace;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #f3f6f7;
+    text-align: center;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+ .typing-box{
+  margin-left: 30%;
+  padding-top: 100px;
+ }
+.banner-text{
+  font-size: 1.5rem;
+  color: #f3f6f7;
+  font-family: 'Space Mono', monospace;
+  font-weight: 400;
+}
+.logo-banner{
+  max-width: 400px;
+}
+
+.sobre-mim{
+  background: linear-gradient(180deg, rgba(205,180,219,1) 0%, rgba(255,200,221,1) 59%);
+  min-height: 500px;
+}
