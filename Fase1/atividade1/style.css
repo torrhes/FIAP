@@ -1,0 +1,239 @@
+/*
+Cores:
+#77519e - botao
+#fc4a53 - rosa portifa
+#000 - preto 
+#433c6d - menu
+#ff96ce - bg
+
+font-family: 'Nunito', sans-serif;
+font-family: 'Space Grotesk', sans-serif;
+font-family: 'Space Mono', monospace;
+
+*/
+
+body{
+  font-family: 'Nunito', sans-serif;
+}
+a{
+  color:  #fc4a53;
+  text-decoration: none;
+}
+li.nav-item {
+    padding: 0px 15px;
+    margin: 4px 0px 8px 21px;
+    height: 42px;
+}
+.nav-decorated::after {
+  content: '|';
+  color: #fff;
+  padding-left: 45px;
+}
+.navbar-brand {
+    margin-left: 27px;
+}
+.navbar-brand  img{
+  max-width: 75px;
+}
+.nav-item a {
+  color: #fff;
+}
+.nav-item a:hover {
+  color: #fc4a53;
+}
+.navbar{
+      height: 70px;
+      background-color:#433c6d;
+      font-family: 'Space Mono', monospace;
+}
+.banner{ 
+background-color: #ff96ce;
+box-shadow: 0px 16px 17px 0px rgba(119,81,158,0.30);
+}
+  
+.typing {
+  width: 22ch;
+  animation: typing 2s steps(23), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #fff;
+}
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+ .typing-box{
+  margin-left: 30%;
+  padding-top: 50px;
+ }
+.banner-text{
+  font-size: 1.5rem;
+  color: #f3f6f7;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+}
+.logo-banner{
+  max-width: 440px;
+}
+
+.sobre-mim{
+  min-height: 500px;
+  background-color: #fff;
+  margin-top: 50px;
+  box-shadow: 18px 20px 0px 0px rgb(119 81 158 / 15%);
+  border: 1px solid #fc4a53;
+  padding: 53px;
+}
+.sobre-mim img{
+  width: 340px;
+  margin-top: 43px;
+}
+ h1 {
+  font-family: 'Space Mono', monospace;
+  color: #77519e;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+h1::after {
+  font-family: 'Space Mono', monospace;
+  color: #cbcbcb;
+  content: '////////////////';
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 10px 0px 0px 30px;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  padding: 10px;
+  background-color: #433c6d;
+  color: #fff;
+}
+.btn-custom-1{
+  border-radius: 15px;
+  background-color: #77519e;
+  color: #fff;
+  padding: 5px 20px;
+  width: 140px;
+  margin: 14px 4px 0px 15px;
+  font-family: 'Space Grotesk', sans-serif;
+
+}
+.btn-custom-1:hover{
+  background-color: #433c6d;
+  color: #fff;
+}
+
+.skills{
+background-color: #ededed;
+margin-top: 50px;
+padding: 50px;
+box-shadow: 0px 16px 17px 0px rgba(119,81,158,0.15);
+
+}
+
+.progress {
+    display: flex;
+    height: 1.4rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 2px solid #ff96ce;
+}
+.progress-bar {
+  background-color: #ff96ce;
+  border-radius: 15px;
+}
+.skills span{
+  font-size: 18px;
+  font-family: 'Space Mono', monospace;
+}
+.skills-grafico{
+  padding: 10px;;
+}
+.carreira{
+  margin-top: 50px;
+}
+.carreira h1{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.carreira h1::before {
+  font-family: 'Space Mono', monospace;
+  color: #cbcbcb;
+  content: '////////////////';
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 10px 30px 0px 0px;
+}
+.carreira span{
+  font-size: 14px;
+  font-family: 'Space Mono', monospace;
+  padding-left: 8px;
+}
+.carreira h4{
+  font-size: 24px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+.carreira i{
+  color: #77519e;
+}
+.empresas{
+margin: 30px 0px;
+}
+.contato{
+  background-color: #e9c0d6;
+  padding-top: 50px;
+  box-shadow: 0px 0px 17px rgba(119,81,158,0.30);
+
+}
+.contato h1::after {
+  font-family: 'Space Mono', monospace;
+  color: #433c6d;
+  content: '////////////////';
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 10px 0px 0px 30px;
+}
+.contato label{
+  font-family: 'Space Mono', monospace;
+  color: #77519e;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.social li{
+  display: inline-block;
+  list-style: none;
+  font-size: 40px;
+  padding: 30px;
+}
+.social li a{
+  color: #77519e;
+}
+.social li a:hover{
+  color: #433c6d;
+}
+.footer{
+  background-color: #433c6d;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Space Mono', monospace;
+  color: #fff;
+}
